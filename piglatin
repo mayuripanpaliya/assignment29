@@ -5,11 +5,24 @@ def pigl(string):
     if i[0] in vowels:
         print(f"The string {string} is starting with vowels and after pig Latin string is: ",i + "yay")
     else:
+        pri#funtion pig latin defination
+def pigl(string):
+  vowels = ("a","e","i","o","u","A","E","I","O","U")
+  x = string.split()
+
+  for i in string.split():
+
+    if i[0] in vowels:
+
+      #check the string has vowels or not
+        print(f"The string {string} is starting with vowels and after pig Latin string is: ",i + "yay")
+        
+    else:
         print(f"The string {string} is starting with consonant and after pig Latin string is: ",i[1:]+i[0] + "by")
 
+#function calling
 n=input("Enter a string: ")
 pigl(n)
-
 
 
 
